@@ -81,7 +81,7 @@ void hightolow(float sales[], int len) {
             }
         }
     }
-    printf("  Month       Sales\n");
+    printf("Month       Sales\n");
     for(int i = 0; i < len; ++i){
         months(index[i]);
         printf("\t$%.2f\n", hightolow[i]);
